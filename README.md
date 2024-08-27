@@ -1,5 +1,2 @@
-# git-test
-# Holy shit, this works!# qr-code-frontend-mentor
-# qr-code-frontend-mentor
-# qr-code-frontend-mentor
-# qr-code-frontend-mentor
+# QR Code | Frontend Mentor
+
