@@ -1,0 +1,46 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+}
+
+.text-container {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+    padding: 10px;
+}
+
+.p-title {
+    font-weight: 700;
+    font-size: 18px;
+    color: hsl(218, 44%, 22%);
+}
+
+.p-text {
+    font-weight: 400;
+    font-size: 13px;
+    color: hsl(216, 15%, 48%);
+}
+
+.qr-container {
+    width: 240px;
+    height: 413px;
+    background-color: #fff;
+    position: absolute; /*Can also be `fixed`*/
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    padding: 12px;
+    /*Solves a problem in which the content is being cut when the div is smaller than its' wrapper:*/
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+    border-radius: 10px;
+}
+
+.qr-container img {
+    width: 100%;
+    border-radius: 5px;
+}
